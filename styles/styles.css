@@ -29,3 +29,35 @@ img {
 p {
     padding: 10px;
 }
+
+/* Style the main element */
+main {
+    max-width: 840px;
+}
+
+/* Style the aside section */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* Style image in aside separately */
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 15px gray;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
